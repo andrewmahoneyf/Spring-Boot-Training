@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: cloud-hello
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: wasadmin
+Implementation-Vendor-Id: com.webage.spring.samples
+Build-Jdk: 1.8.0_111
+Implementation-URL: http://projects.spring.io/spring-boot/cloud-hello/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

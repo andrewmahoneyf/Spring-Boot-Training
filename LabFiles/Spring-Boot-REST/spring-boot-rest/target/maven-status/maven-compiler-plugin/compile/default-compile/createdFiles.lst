@@ -1,0 +1,9 @@
+com/webage/repository/PurchaseRepository.class
+com/webage/service/PurchaseServiceImpl.class
+com/webage/domain/Purchase.class
+com/webage/api/CustomerAPI.class
+com/webage/repository/CustomersRepository.class
+com/webage/App.class
+com/webage/domain/Customer.class
+com/webage/web/PurchaseController.class
+com/webage/service/PurchaseService.class

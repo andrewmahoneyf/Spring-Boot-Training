@@ -1,0 +1,11 @@
+-- Products as (name, category, price, imageURI, description)
+'Electric Guitar', 'Electronics', 59.99, 'images/a003cut.gif', 'This electric guitar is perfect for any beginning musician.  Comes with a hard carrying case and an extra set of strings.'
+'Computer', 'Electronics', 799.99, 'images/b008cut.gif', 'This computer is a great combination of performance and value.  This computer comes with a 2.4 GHz Pentium Core Duo processor, 2 GB memory, and a 17 inch LCD monitor.'
+'Baseball Set', 'Sports', 49.99, 'images/c003cut.gif', 'This baseball set has everything for the baseball beginner.  The set comes with a leather youth size glove, a youth wooden bat, and 2 regulation size baseballs.'
+'Soccer Ball', 'Sports', 19.99, 'images/c004cut.gif', 'This youth size soccer ball is great for all ages.  This soccer ball is an all-leather construction and comes with an inflation needle.'
+'Mystery Book', 'School', 7.99, 'images/embroidery001il.gif', 'This mystery book is from one of today''s most popular authors.  You will be on the edge of your seat until the dramatic conclusion of the book.'
+'Mountain Bike', 'Sports', 79.99, 'images/image002.gif', 'This 10-speed mountain bike is great for exploring the outdoors or getting around town.  This bike includes a kit for tuning the bike.'
+'Skateboard', 'Sports', 19.99, 'images/sk8er001il.gif', 'This rugged skateboard is tough enough to take abuse from any half-pipe.  This skateboard comes with tools for adjusting the suspension and changing the wheels.'
+'Football Set', 'Sports', 39.99, 'images/spearmint001il.gif', 'This football set has all the equipment your little quarterback will need.  The set includes a youth size helmet and a youth size leather football.'
+'Basketball Set', 'Sports', 89.99, 'images/u016cut.gif', 'With this basketball set you will no longer need to travel to the local playground just to shoot some hoops.  This set includes a free-standing basket which can be used in any driveway and a leather regulation size basketball.'
+'Backpack', 'School', 16.99, 'images/u019cut.gif', 'Time for school?  This backpack is great for carrying everything your schoolkid will need.  It has two large pockets for books and several smaller pockets for other supplies.'

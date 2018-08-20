@@ -1,0 +1,19 @@
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://localhost:8761/eureka
+            
+spring:
+    application:
+        name: cloud-hello
+        
+failAfter:
+    enabled=false
+    count=100
+    
+serverId: 'Cloud-Hello'
+
+logging:
+    level: 
+        root: 'ERROR'
+        org.springframework: 'ERROR'

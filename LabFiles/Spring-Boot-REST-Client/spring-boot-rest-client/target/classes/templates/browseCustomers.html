@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Browse Purchases - SportyStuf Purchase Entry System</title>
+</head>
+<body>
+	<h1>Browse Purchases</h1>
+	<a href="add">Add Purchase</a>
+	<table border="1">
+		<tr>
+			<td>Customer Id</td>
+			<td>Customer Name</td>
+			<td>Email</td>
+		</tr>
+		<tr th:each="customer : ${customers}">
+			<!-- Other purchase details -->
+			<td th:text="${customer.id}"></td>
+			<td th:text="${customer.name}"></td>
+			<td th:text='${customer.email}'></td>
+		</tr>
+	</table>
+	<br />
+
+	<!-- Need URL for index page -->
+	<a th:href="@{/index.html}">Back to Main Menu</a>
+	
+	<div th:include="footer :: content"></div>
+
+</body>
+</html>

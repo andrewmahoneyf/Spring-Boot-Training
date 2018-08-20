@@ -1,0 +1,13 @@
+		// Insert code to make the call here...
+		if(helloServers.size() == 0) {
+			System.out.println("Sorry, but I can't find a server to use");
+			System.exit(0);
+		}
+		// Pick one
+		int chosen=(int) (Math.random()*helloServers.size());
+		ServiceInstance chosenInstance=helloServers.get(chosen);
+		RestTemplate rt=restTemplateBuilder.build();
+		URI callUri=UriComponentsBuilder.fromUri(chosenInstance.getUri()).path("/hello-message").queryParam("name", name).build().toUri();
+		// Do the call.
+		Map<String, Object> resp=(Map<String,Object>) rt.getForObject(callUri, Map.class);
+		System.out.println("Server says:" + resp.get("message"));

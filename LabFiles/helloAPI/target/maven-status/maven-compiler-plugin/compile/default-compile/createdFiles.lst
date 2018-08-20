@@ -1,0 +1,3 @@
+com/webage/spring/samples/hello/HelloAPI.class
+com/webage/spring/samples/hello/api/HelloResource.class
+com/webage/spring/samples/hello/api/HelloResponse.class
